@@ -1,0 +1,26 @@
+.destination-card {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow:  5px 5px 10px #DEDEDE,
+             -5px -5px 10px #FFFFFF;
+    width: 320px;
+    padding: 2vw;
+    margin: 10px;
+}
+.destination-card-image img{
+    height:300px;
+    width: 300px;
+}
+.destination-description p {
+    margin: 0;
+}
+.add-btn {
+    background:#f9423D;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+}
